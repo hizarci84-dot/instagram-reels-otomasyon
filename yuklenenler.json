@@ -2,7 +2,8 @@
   "uploaded_files": [
     "agirlik_merkezi_final.mp4",
     "altin_oran_final.mp4",
-    "aciortay_teoremi_final.mp4"
+    "aciortay_teoremi_final.mp4",
+    "am_gm_final.mp4"
   ],
   "history": [
     {
@@ -31,6 +32,15 @@
       "location": "Antalya",
       "location_id": "106078429431815",
       "uploaded_at": "2026-11-05T10:13:24.471602+03:00"
+    },
+    {
+      "filename": "am_gm_final.mp4",
+      "title": "Aritmetik Ortalama Neden Geometrik Ortalamadan Büyük veya Eşittir?",
+      "media_id": "18113726699143649",
+      "permalink": "https://www.instagram.com/reel/DfX_PixjCf0/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "uploaded_at": "2026-11-06T00:23:52.950528+03:00"
     }
   ]
 }
