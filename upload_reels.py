@@ -193,6 +193,27 @@ def load_ig_credentials() -> dict:
             "ve GitHub deponuzun Secrets bölümüne IG_TOKEN_JSON olarak ekleyin."
         )
 
+    # Eğer app_id ve app_secret mevcutsa token süresini otomatik tazele
+    app_id = creds.get("app_id")
+    app_secret = creds.get("app_secret")
+    if app_id and app_secret:
+        try:
+            ex_res = graph_api_request(
+                f"{GRAPH_BASE_URL}/oauth/access_token",
+                method="GET",
+                data={
+                    "grant_type": "fb_exchange_token",
+                    "client_id": app_id,
+                    "client_secret": app_secret,
+                    "fb_exchange_token": creds["access_token"],
+                },
+                timeout=15,
+            )
+            if ex_res.get("access_token"):
+                creds["access_token"] = ex_res["access_token"]
+        except Exception:
+            pass
+
     return creds
 
 
