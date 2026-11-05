@@ -1,0 +1,89 @@
+name: Instagram Reels Günlük Otomatik Paylaşım (18:00)
+
+on:
+  schedule:
+    # 1. Ana Plan: Her gün Türkiye saatiyle 18:00 (15:00 UTC)
+    - cron: '0 15 * * *'
+    # 2. Yedek Plan: 19:00 TSİ (16:00 UTC) - GitHub sunucu yoğunluğu olursa güvenlik ağı
+    - cron: '0 16 * * *'
+    # 3. Yedek Plan: 20:00 TSİ (17:00 UTC) - İkinci güvenlik ağı
+    - cron: '0 17 * * *'
+    # 4. Yedek Plan: 21:00 TSİ (18:00 UTC) - Üçüncü güvenlik ağı
+    - cron: '0 18 * * *'
+  # GitHub Actions sekmesinden istenildiği an "Run workflow" ile elle başlatma
+  workflow_dispatch:
+    inputs:
+      force_upload:
+        description: 'Bugün paylaşım yapılmış olsa bile zorla paylaş (true/false)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  publish_reel:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu Klonla
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Günlük Kontrol (Bugün Saat 18:00 Reels Videosu Paylaşıldı mı?)
+        id: check_today
+        run: |
+          python -c "
+          import json, os
+          from datetime import datetime, timezone, timedelta
+          trt_now = datetime.now(timezone(timedelta(hours=3)))
+          today = trt_now.strftime('%Y-%m-%d')
+          force_input = '${{ github.event.inputs.force_upload }}'.lower() == 'true'
+          already_done = 'false'
+          if not force_input and os.path.exists('yuklenenler.json'):
+              try:
+                  with open('yuklenenler.json', encoding='utf-8') as f:
+                      data = json.load(f)
+                  for h in reversed(data.get('history', [])):
+                      if h.get('uploaded_at', '').startswith(today) and h.get('status') != 'manual':
+                          already_done = 'true'
+                          print(f'Bugün ({today}) zaten paylaşılan Reels: {h.get(\"filename\")}')
+                          break
+              except Exception as e:
+                  print('Kontrol uyarısı:', e)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write(f'already_done={already_done}\n')
+          "
+
+      - name: Sıradaki Reels Videosunu Instagram'da Paylaş (@mufithocailematematik)
+        if: steps.check_today.outputs.already_done != 'true'
+        env:
+          IG_TOKEN_JSON: ${{ secrets.IG_TOKEN_JSON }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          if [ "${{ github.event.inputs.force_upload }}" = "true" ]; then
+            python upload_reels.py --force
+          else
+            python upload_reels.py
+          fi
+
+      - name: Takip Dosyasını (yuklenenler.json) Güncelle ve Kaydet
+        if: steps.check_today.outputs.already_done != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add yuklenenler.json
+          if git diff --staged --quiet; then
+            echo "Takip dosyasında değişiklik yok."
+          else
+            MSG=$(cat last_uploaded.txt 2>/dev/null || echo "Instagram Reels paylaşıldı")
+            git commit -m "Otomatik Reels Paylaşımı: $MSG"
+            git pull --rebase origin main || true
+            git push
+          fi

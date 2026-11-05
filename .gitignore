@@ -1,0 +1,7 @@
+# Özel Anahtarlar ve Oturum Dosyaları (Asla GitHub'a açık yüklenmez)
+ig_token.json
+.env
+last_uploaded.txt
+__pycache__/
+*.pyc
+.venv/

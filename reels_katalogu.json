@@ -1,0 +1,350 @@
+{
+  "channel": "mufithocailematematik",
+  "default_location": "Antalya",
+  "default_location_id": "106078429431815",
+  "schedule_time_trt": "18:00",
+  "videos": [
+    {
+      "order": 1,
+      "filename": "aciortay_teoremi_final.mp4",
+      "title": "Üçgende İç Açıortay Teoremi Nereden Geliyor?",
+      "topic": "Geometri",
+      "summary": "Bir üçgende açıyı tam ortadan ikiye bölen doğru, karşı kenarı neden komşu kenarların oranında böler? Formülü ezberlemek yerine paralel çizgiler ve ikizkenar üçgenin gizlediği görsel kanıtı keşfediyoruz.",
+      "question": "Geometri sorularında açıortay gördüğünüzde sizin aklınıza ilk hangi yardımcı çizim geliyor? Yorumlarda buluşalım! 👇",
+      "hashtags": "#matematik #geometri #açıortay #tytgeometri #aytgeometri #yksmatematik #lgsmatematik #görselispat #mufithocailematematik #antalya"
+    },
+    {
+      "order": 2,
+      "filename": "agirlik_merkezi_final.mp4",
+      "title": "Üçgenin Denge Noktası: Ağırlık Merkezi ve 1'e 2 Oranı",
+      "topic": "Geometri",
+      "summary": "Üçgen şeklindeki bir levhayı tek bir parmağınızın ucunda dengede tutmak isteseydiniz nereye dokunurdunuz? Kenarortayların kesiştiği ağırlık merkezinin neden her zaman 1'e 2 oranında bölündüğünü görsel olarak inceliyoruz.",
+      "question": "Ağırlık merkezi üçgenin alanını kaç eşit parçaya böler? Cevabınızı yoruma bırakın! 👇",
+      "hashtags": "#matematik #geometri #ağırlıkmerkezi #kenarortay #tytmatematik #aytmatematik #yks2027 #ispat #mufithocailematematik #antalya"
+    },
+    {
+      "order": 3,
+      "filename": "altin_oran_final.mp4",
+      "title": "Doğanın Gizli İmzası: Altın Oran (1,618...) ve Fibonacci",
+      "topic": "Sayılar ve Doğa",
+      "summary": "Ayçiçeği çekirdeklerinden galaksi sarmallarına, Fibonacci dizisindeki ardışık sayıların oranı neden hep aynı gizemli sayıya (φ = 1,618...) yaklaşır? Altın dikdörtgenin ve altın sarmalın matematiğine yakından bakalım.",
+      "question": "Doğada veya günlük hayatta Altın Oran'ı en çok nerede fark ediyorsunuz? 👇",
+      "hashtags": "#matematik #altınoran #fibonacci #sayılar #bilim #doğavematematik #tytmatematik #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 4,
+      "filename": "am_gm_final.mp4",
+      "title": "Aritmetik Ortalama Neden Geometrik Ortalamadan Büyük veya Eşittir?",
+      "topic": "Cebir ve Geometri",
+      "summary": "Pozitif iki sayının aritmetik ortalaması (a+b)/2 neden her zaman geometrik ortalaması √(a·b)'den büyük ya da eşittir? Cebirsel eşitsizliklerin yarım çember içindeki büyüleyici geometrik kanıtı!",
+      "question": "Bu iki ortalama hangi durumda birbirine tam olarak eşit olur? Yorumlara yazın! 👇",
+      "hashtags": "#matematik #eşitsizlikler #aritmetikortalama #geometrikortalama #aytmatematik #tytmatematik #olimpiyatmatematiği #ispat #mufithocailematematik #antalya"
+    },
+    {
+      "order": 5,
+      "filename": "ascii_binary_final.mp4",
+      "title": "Bilgisayarlar Harfleri Nasıl Anlar? ASCII ve İkili (Binary) Sistem",
+      "topic": "Algoritma ve Sayı Tabanları",
+      "summary": "Klavyede 'A' tuşuna bastığınız salisede bilgisayarın içinde ne olur? Sadece 0 ve 1'leri (açık/kapalı anahtarları) bilen bir makinenin 65 sayısını ikili tabanda 1000001'e dönüştürme serüveni!",
+      "question": "İkili (binary) sistemde '101' sayısı onluk sistemde kaça karşılık gelir? Bilenleri yoruma bekliyorum! 👇",
+      "hashtags": "#matematik #algoritma #binary #yazılım #bilgisayarbilimi #sayıtabanları #tytmatematik #teknoloji #mufithocailematematik #antalya"
+    },
+    {
+      "order": 6,
+      "filename": "birim_cember_final.mp4",
+      "title": "Trigonometrinin Kalbi: Birim Çember Mantığı",
+      "topic": "Trigonometri",
+      "summary": "Yarıçapı 1 birim olan basit bir çember, sinüs ve kosinüs fonksiyonlarının tüm sırlarını nasıl içinde barındırır? Formülleri ezberlemeden trigonometriyi birim çember üzerinde görerek anlayalım.",
+      "question": "Trigonometride en çok hangi konuyu veya formülü karıştırıyorsunuz? Yorumlarda belirtin! 👇",
+      "hashtags": "#matematik #trigonometri #birimçember #aytmatematik #yksmatematik #11sınıfmatematik #geometri #görselmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 7,
+      "filename": "bolunebilme_3_9_final.mp4",
+      "title": "3 ve 9 ile Bölünebilme Kuralı Nereden Geliyor?",
+      "topic": "Sayılar Teorisi",
+      "summary": "Bir sayının 3'e veya 9'a tam bölünüp bölünmediğini anlamak için neden rakamlarını toplarız? Basamak çözümlemesinin (10 = 9+1, 100 = 99+1) arkasındaki o çok zarif matematiksel sır!",
+      "question": "Peki 11 ile bölünebilme kuralının mantığını biliyor musunuz? Yorumlarda tartışalım! 👇",
+      "hashtags": "#matematik #bölünebilme #sayılar #tytmatematik #lgsmatematik #kpssmatematik #matematikispatı #temelmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 8,
+      "filename": "cember_alan_final.mp4",
+      "title": "Dairenin Alanı Neden πr²? Dilimleyerek Görsel İspat",
+      "topic": "Geometri",
+      "summary": "Dairenin alan formülü olan πr² gökten zembille inmedi! Bir daireyi ince pasta dilimlerine ayırıp ters-düz yan yana dizdiğimizde ortaya çıkan dikdörtgen bize alan formülünü kendi elleriyle veriyor.",
+      "question": "Dilim sayısını sonsuza götürmek size matematiğin hangi konusunu hatırlattı? 👇",
+      "hashtags": "#matematik #geometri #çember #daireninalanı #pi #görselispat #tytgeometri #lgsmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 9,
+      "filename": "cevre_merkez_aci_final.mp4",
+      "title": "Çemberde Çevre Açı Neden Merkez Açının Tam Yarısıdır?",
+      "topic": "Geometri",
+      "summary": "Aynı yayı gören çevre açı, merkez açının neden her zaman yarısına eşittir? Yarıçapların oluşturduğu gizli ikizkenar üçgenler ve bir dış açının büyüsüyle bu kuralı kanıtlıyoruz.",
+      "question": "Çapı gören çevre açının 90° olması da buradan mı gelir? Ne dersiniz? 👇",
+      "hashtags": "#matematik #geometri #çemberdeaçı #merkezaçı #çevreaçı #tytgeometri #aytgeometri #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 10,
+      "filename": "cizge_kurami_final.mp4",
+      "title": "Königsberg'in 7 Köprüsü ve Çizge Kuramının (Graph Theory) Doğuşu",
+      "topic": "Ayrık Matematik ve Algoritma",
+      "summary": "1736 yılında Königsberg halkı şehirdeki 7 köprüden sadece birer kez geçerek başladıkları yere dönmeye çalıştı. Leonhard Euler ise şehri noktalara ve çizgilere dönüştürerek bunun neden imkânsız olduğunu kanıtladı ve modern ağ bilimini başlattı!",
+      "question": "Kalemi kağıttan kaldırmadan şekil çizme oyunlarında sizce kural nedir? 👇",
+      "hashtags": "#matematik #euler #çizgekuramı #graphtheory #algoritma #matematiktarihi #bilim #zekasoruları #mufithocailematematik #antalya"
+    },
+    {
+      "order": 11,
+      "filename": "cokgenler_dis_acilar_final.mp4",
+      "title": "Çokgenlerin Dış Açıları Toplamı Neden Hep 360 Derecedir?",
+      "topic": "Geometri",
+      "summary": "Üçgen, dörtgen, beşgen ya da yüzgen... Kenar sayısı kaç olursa olsun dışbükey bir çokgenin dış açıları toplamı neden hiç değişmeden 360° kalır? Çokgeni küçülterek merkeze topladığımızda cevap gözlerimizin önünde!",
+      "question": "Düzgün bir sekizgenin bir dış açısı kaç derecedir? Hemen zihinden hesaplayıp yoruma yazın! 👇",
+      "hashtags": "#matematik #geometri #çokgenler #dışaçılar #tytgeometri #yksmatematik #10sınıfmatematik #görselmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 12,
+      "filename": "diskriminant_final.mp4",
+      "title": "Diskriminant (Δ = b² - 4ac) Bize Gerçekte Ne Anlatır?",
+      "topic": "Cebir ve Fonksiyonlar",
+      "summary": "İkinci dereceden bir denklemin köklerini bulurken hesapladığımız Δ (Delta), grafik üzerinde parabolün x ekseniyle olan ilişkisini nasıl belirler? Δ > 0, Δ = 0 ve Δ < 0 durumlarının geometrik anlamı!",
+      "question": "Delta negatif çıktığında 'gerçel kök yoktur' diyoruz; peki parabol koordinat sisteminde nasıl durur? 👇",
+      "hashtags": "#matematik #diskriminant #ikinciderecedendenklemler #parabol #aytmatematik #10sınıfmatematik #yksmatematik #cebir #mufithocailematematik #antalya"
+    },
+    {
+      "order": 13,
+      "filename": "dogumgunu_final.mp4",
+      "title": "Doğum Günü Paradoksu: 23 Kişide %50'yi Geçen Şaşırtıcı Olasılık!",
+      "topic": "Olasılık",
+      "summary": "365 gün varken sadece 23 kişilik bir sınıfta en az iki kişinin aynı gün doğmuş olma olasılığı nasıl %50,7 olabilir? Sezgilerimizi yanıltan kombinasyon ve tümleyen olasılık hesabını inceliyoruz!",
+      "question": "Sizin sınıfınızda veya arkadaş grubunuzda aynı gün doğan iki kişi var mıydı? 👇",
+      "hashtags": "#matematik #olasılık #doğumgünüparadoksu #istatistik #tytmatematik #aytmatematik #paradoks #bilim #mufithocailematematik #antalya"
+    },
+    {
+      "order": 14,
+      "filename": "el_sikisma_final.mp4",
+      "title": "El Sıkışma Problemi: n·(n-1)/2 Formülünün Görsel Mantığı",
+      "topic": "Kombinasyon",
+      "summary": "Bir odadaki herkes birbiriyle birer kez tokalaşırsa toplam kaç tokalaşma gerçekleşir? Kombinasyon C(n,2) formülünü ezberlemeden, noktaları birleştiren doğrularla mantığını kavrayalım.",
+      "question": "10 takımın katıldığı tek devreli bir turnuvada toplam kaç maç yapılır? Cevabı yoruma bekliyorum! 👇",
+      "hashtags": "#matematik #kombinasyon #olasılık #sayma #tytmatematik #aytmatematik #yksmatematik #problemler #mufithocailematematik #antalya"
+    },
+    {
+      "order": 15,
+      "filename": "eratosthenes_final.mp4",
+      "title": "Eratosthenes Kalburu: Asal Sayıları Avlamanın 2200 Yıllık Yolu",
+      "topic": "Sayılar Teorisi",
+      "summary": "Antik çağda Eratosthenes, bölme işlemi bile yapmadan asal sayıları nasıl tek tek ayıkladı? Katları eleyerek asal sayıları ortaya çıkaran bu zarif algoritma bugün hâlâ bilgisayar biliminde kullanılıyor.",
+      "question": "1 ile 100 arasında toplam kaç tane asal sayı olduğunu biliyor musunuz? 👇",
+      "hashtags": "#matematik #asalsayılar #eratosthenes #sayılarteorisi #algoritma #tytmatematik #lgsmatematik #matematiktarihi #mufithocailematematik #antalya"
+    },
+    {
+      "order": 16,
+      "filename": "euler_final.mp4",
+      "title": "Bileşik Faizden Doğaya: Euler Sayısı (e ≈ 2,718...) Nedir?",
+      "topic": "Analiz ve Logaritma",
+      "summary": "Büyümenin ve değişimin doğal sabiti olan 'e' sayısı nereden çıktı? (1 + 1/n)^n ifadesinde n sonsuza giderken karşımıza çıkan bu gizemli irrasyonel sayının hikayesi.",
+      "question": "Matematikte π (Pi) sayısı mı yoksa e (Euler) sayısı mı sizi daha çok şaşırtıyor? 👇",
+      "hashtags": "#matematik #eulersayısı #logaritma #limit #aytmatematik #analiz #bilim #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 17,
+      "filename": "gauss_toplam_final.mp4",
+      "title": "Küçük Gauss'un Sırrı: 1'den n'ye Kadar Ardışık Toplam",
+      "topic": "Sayılar ve Diziler",
+      "summary": "Öğretmeni sınıfa 1'den 100'e kadar sayıları toplama ödevi verdiğinde, henüz ilkokul çağındaki Carl Friedrich Gauss saniyeler içinde 5050 cevabını nasıl buldu? Sayıları baştan ve sondan eşleştirmenin geometrik gücü!",
+      "question": "1'den 50'ye kadar olan doğal sayıların toplamı kaçtır? Gauss yöntemiyle hemen bulup yoruma yazın! 👇",
+      "hashtags": "#matematik #gauss #ardışıksayılar #sayılar #tytmatematik #lgsmatematik #görselispat #matematiktarihi #mufithocailematematik #antalya"
+    },
+    {
+      "order": 18,
+      "filename": "geometrik_seri_final.mp4",
+      "title": "Sonsuz Tane Sayının Toplamı Sonlu Olabilir mi? (1/2 + 1/4 + 1/8 + ...)",
+      "topic": "Diziler ve Seriler",
+      "summary": "Bir bütünün önce yarısını, sonra kalanın yarısını (1/4), sonra onun da yarısını (1/8) sonsuza kadar toplarsak sonuç ne olur? Sonsuz geometrik serinin birim kare üzerindeki kusursuz görsel kanıtı!",
+      "question": "1/3 + 1/9 + 1/27 + ... sonsuz toplamının sonucu sizce kaç eder? 👇",
+      "hashtags": "#matematik #geometrikseri #sonsuzluk #diziler #limit #aytmatematik #görselispat #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 19,
+      "filename": "guvercin_yuvasi_final.mp4",
+      "title": "Güvercin Yuvası İlkesi: Basit Görünümlü Dâhiyane Kanıt",
+      "topic": "Ayrık Matematik ve Mantık",
+      "summary": "n tane yuvaya n+1 güvercin yerleşecekse, en az bir yuvada mutlaka 2 güvercin bulunmalıdır! Kulağa çok basit gelen Dirichlet (Güvercin Yuvası) İlkesi, en zor olimpiyat ve mantık sorularını nasıl saniyeler içinde çözer?",
+      "question": "13 kişilik bir grupta en az kaç kişinin doğum ayı kesinlikle aynıdır? 👇",
+      "hashtags": "#matematik #güvercinyuvası #mantık #olimpiyatmatematiği #tytmatematik #problemler #zekasoruları #dirichlet #mufithocailematematik #antalya"
+    },
+    {
+      "order": 20,
+      "filename": "harmonik_seri_final.mp4",
+      "title": "Harmonik Seri Paradoksu: Terimler Sıfıra Giderken Toplam Neden Sonsuza Gider?",
+      "topic": "Analiz ve Seriler",
+      "summary": "1 + 1/2 + 1/3 + 1/4 + ... serisinde eklenen sayılar giderek küçülüp sıfıra yaklaşıyor. Peki nasıl oluyor da bu toplam bir sınırda durmayıp sonsuza kadar büyüyor? Nicole Oresme'nin 14. yüzyıldaki efsanevi gruplama kanıtı!",
+      "question": "Bu sonuç ilk duyduğunuzda sizin de sezgilerinizi şaşırttı mı? 👇",
+      "hashtags": "#matematik #harmonikseri #sonsuzluk #analiz #kalkülüs #aytmatematik #paradoks #ispat #mufithocailematematik #antalya"
+    },
+    {
+      "order": 21,
+      "filename": "ic_teget_cember_final.mp4",
+      "title": "Üçgende İç Teğet Çemberin Merkezi Neden Açıortayların Kesim Noktasıdır?",
+      "topic": "Geometri",
+      "summary": "Bir üçgenin üç kenarına da aynı anda içten teğet olan bir çember çizmek isteseydiniz merkezini nereye koyardınız? Köşelerdeki açıortayların kenarlara eşit uzaklıkta olma özelliğinden doğan kusursuz geometrik uyum!",
+      "question": "Peki üçgenin köşelerinden geçen çevrel çemberin merkezi hangi doğruların kesim noktasıdır? 👇",
+      "hashtags": "#matematik #geometri #içteğetçember #açıortay #üçgenler #tytgeometri #aytgeometri #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 22,
+      "filename": "iki_kare_farki_final.mp4",
+      "title": "a² - b² Neden (a - b)·(a + b) Eder? Geometrik Makas Darbesi",
+      "topic": "Cebir ve Özdeşlikler",
+      "summary": "Cebirin en ünlü özdeşliği olan İki Kare Farkı'nı hiç bu gözle gördünüz mü? Kenarı a olan kareden kenarı b olan kareyi kesip çıkardığımızda kalan parçaların oluşturduğu dikdörtgen bize cevabı anında veriyor!",
+      "question": "51² - 49² işleminin sonucunu bu özdeşlikle kalem kullanmadan kaç saniyede bulabilirsiniz? 👇",
+      "hashtags": "#matematik #ikikarefarkı #çarpanlaraayırma #özdeşlikler #tytmatematik #lgsmatematik #8sınıfmatematik #görselispat #mufithocailematematik #antalya"
+    },
+    {
+      "order": 23,
+      "filename": "integral_final.mp4",
+      "title": "İntegral Gerçekte Nedir? Eğrinin Altındaki Alanı Dilimlemek",
+      "topic": "Kalkülüs ve Analiz",
+      "summary": "Kıvrımlı bir eğrinin altındaki alanı dikdörtgenlerle nasıl tam olarak hesaplayabiliriz? Dikdörtgenlerin genişliğini sıfıra yaklaştırıp (Riemann toplamı) sonsuz ince dilimi topladığımızda İntegral doğuyor!",
+      "question": "Türev ve İntegral arasındaki o muazzam ters ilişkiyi (Kalkülüsün Temel Teoremi) seviyor musunuz? 👇",
+      "hashtags": "#matematik #integral #riemann #kalkülüs #aytmatematik #12sınıfmatematik #yksmatematik #görselmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 24,
+      "filename": "kirisler_dortgeni_final.mp4",
+      "title": "Kirişler Dörtgeninde Karşılıklı Açılar Toplamı Neden 180 Derecedir?",
+      "topic": "Geometri",
+      "summary": "Köşeleri aynı çember üzerinde bulunan bir dörtgenin karşılıklı açıları neden birbirini her zaman 180°'ye tamamlar? Çevre açıların gördüğü yayların çemberin tamamını (360°) sarmasıyla ortaya çıkan net kanıt!",
+      "question": "Her dikdörtgen aynı zamanda bir kirişler dörtgeni midir? Yorumlarda tartışalım! 👇",
+      "hashtags": "#matematik #geometri #kirişlerdörtgeni #çember #dörtgenler #tytgeometri #aytgeometri #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 25,
+      "filename": "kosinus_teoremi_final.mp4",
+      "title": "Kosinüs Teoremi: Pisagor'un Tüm Üçgenlere Genelleştirilmesi",
+      "topic": "Trigonometri ve Geometri",
+      "summary": "Üçgenimiz dik üçgen değilse Pisagor teoremi nasıl değişir? c² = a² + b² - 2ab·cos(α) formülündeki o '-2ab·cos(α)' düzeltme teriminin dik izdüşümden nasıl doğduğunu adım adım izliyoruz.",
+      "question": "Aradaki açı 90° olduğunda Kosinüs Teoremi neden doğrudan Pisagor'a dönüşür? 👇",
+      "hashtags": "#matematik #kosinüsteoremi #trigonometri #geometri #pisagor #aytmatematik #11sınıfmatematik #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 26,
+      "filename": "kure_yuzey_alani_final.mp4",
+      "title": "Arşimet'in Başyapıtı: Kürenin Yüzey Alanı Neden 4πr²?",
+      "topic": "Katı Cisimler ve Geometri",
+      "summary": "Bir kürenin yüzey alanı, kendi merkezinden geçen dairenin (gölgesinin) alanının neden tam 4 katıdır? Arşimet'in küreyi çevreleyen silindire yaptığı yatay izdüşüm kanıtı matematiğin en zarif buluşlarından biridir!",
+      "question": "Katı cisimlerde formülleri mantığıyla öğrenmek işinizi kolaylaştırıyor mu? 👇",
+      "hashtags": "#matematik #geometri #küre #arşimet #katıcisimler #tytgeometri #aytgeometri #görselispat #mufithocailematematik #antalya"
+    },
+    {
+      "order": 27,
+      "filename": "logaritma_final.mp4",
+      "title": "Logaritma Nedir? Çarpmayı Toplamaya Dönüştüren Güç",
+      "topic": "Logaritma",
+      "summary": "Astronomik büyüklükteki sayıları çarpmak yerine sadece üslerini toplayarak işlem yapmamızı sağlayan Logaritma, John Napier'den günümüze deprem şiddetinden ses desibeline kadar hayatımızın her yerinde!",
+      "question": "log₂(32) ifadesinin değeri kaçtır? Hızlıca yoruma yazın! 👇",
+      "hashtags": "#matematik #logaritma #üslüsayılar #aytmatematik #12sınıfmatematik #yksmatematik #bilim #cebir #mufithocailematematik #antalya"
+    },
+    {
+      "order": 28,
+      "filename": "monty_hall_final.mp4",
+      "title": "Monty Hall Paradoksu: Kapıyı Değiştirmeli misin?",
+      "topic": "Olasılık ve Karar Teorisi",
+      "summary": "3 kapıdan birinin arkasında araba, ikisinde keçi var. Bir kapı seçtiniz, sunucu kalan kapılardan keçili olanı açtı. Şimdi seçiminizi değiştirmeli misiniz? Değiştirdiğinizde kazanma şansınızın %33,3'ten %66,7'ye çıkmasının matematiksel sırrı!",
+      "question": "Siz yarışmada olsaydınız kapıyı değiştirir miydiniz yoksa ilk seçiminizde kalır mıydınız? 👇",
+      "hashtags": "#matematik #montyhall #olasılık #paradoks #mantık #istatistik #tytmatematik #aytmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 29,
+      "filename": "oklid_bagintilari_final.mp4",
+      "title": "Dikten Dik İndirince Neden h² = p·k Olur? Öklid Bağıntıları",
+      "topic": "Geometri",
+      "summary": "Bir dik üçgende hipotenüse ait yükseklik çizildiğinde oluşan iki küçük üçgen neden birbirine ve büyük üçgene benzerdir? Benzerlik oranlarından Öklid bağıntılarının (h² = p·k) doğuşu!",
+      "question": "Geometride 'dikten dik inme' (Öklid) kuralını sorularda hemen fark edebiliyor musunuz? 👇",
+      "hashtags": "#matematik #geometri #öklid #diküçgen #benzerlik #tytgeometri #aytgeometri #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 30,
+      "filename": "parabol_final.mp4",
+      "title": "Doğadaki ve Fiziğin İçindeki Kusursuz Eğri: Parabol",
+      "topic": "Fonksiyonlar ve Analitik Geometri",
+      "summary": "Havaya atılan bir topun izlediği yoldan uydu antenlerinin odak noktasına kadar Parabol (y = ax² + bx + c) neden doğanın en sevdiği eğridir? Tepe noktası ve simetri ekseninin geometrik anlamı!",
+      "question": "Parabol sorularında tepe noktasının r = -b/(2a) formülünü sık kullanıyor musunuz? 👇",
+      "hashtags": "#matematik #parabol #fonksiyonlar #aytmatematik #11sınıfmatematik #analitikgeometri #yksmatematik #fizik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 31,
+      "filename": "pascal_final.mp4",
+      "title": "Pascal Üçgeninin İçindeki Gizli Desenler ve Sierpinski Fraktalı",
+      "topic": "Kombinasyon ve Fraktallar",
+      "summary": "Üstteki iki sayıyı toplayarak oluşturduğumuz Pascal Üçgeni; binom açılımından 2'nin kuvvetlerine, Fibonacci sayılarından tek sayıları boyadığımızda beliren Sierpinski Üçgeni fraktalına kadar inanılmaz bir hazine saklıyor!",
+      "question": "Pascal üçgeninin n. satırındaki sayıların toplamı neden her zaman 2ⁿ verir? 👇",
+      "hashtags": "#matematik #pascalüçgeni #binom #kombinasyon #fraktal #sierpinski #tytmatematik #aytmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 32,
+      "filename": "pisagor_final.mp4",
+      "title": "Pisagor Teoremi ve Alanların Dansı: a² + b² Neden c² Eder?",
+      "topic": "Geometri",
+      "summary": "Dik üçgende dik kenarlar üzerine kurulan iki karenin alanları toplamı, hipotenüs üzerindeki büyük karenin alanına nasıl tam olarak eşit olur? Parçaların yer değiştirmesiyle Pisagor'un en zarif görsel kanıtı!",
+      "question": "3-4-5 üçgeni dışında en çok kullandığınız özel dik üçgen hangisi? Yorumlara yazın! 👇",
+      "hashtags": "#matematik #geometri #pisagor #diküçgen #görselispat #tytgeometri #lgsmatematik #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 33,
+      "filename": "sinus_teoremi_final.mp4",
+      "title": "Sinüs Teoremi: a/sin(A) Oranı Neden Çevrel Çemberin Çapına (2R) Eşittir?",
+      "topic": "Trigonometri ve Geometri",
+      "summary": "Bir üçgende kenar uzunluğunun karşı açının sinüsüne oranı neden üçgenin etrafına çizilen çevrel çemberin çapını (2R) verir? Çapı gören çevre açının 90° olmasıyla birleşen muazzam kanıt!",
+      "question": "Sinüs Teoremi mi yoksa Kosinüs Teoremi mi sorularda daha pratik geliyor? 👇",
+      "hashtags": "#matematik #sinüsteoremi #trigonometri #geometri #çevrelçember #aytmatematik #11sınıfmatematik #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 34,
+      "filename": "skaler_carpim_final.mp4",
+      "title": "Vektörlerde Skaler (İç) Çarpım Gerçekte Neyi Ölçer?",
+      "topic": "Vektörler ve Analitik Geometri",
+      "summary": "İki vektörün skaler çarpımı neden bir vektör değil de tek bir sayı üretir? Bir vektörün diğeri üzerindeki gölgesi (izdüşümü) ve diklik şartının (cos 90° = 0) görsel yorumu!",
+      "question": "İki vektör birbirine dik olduğunda skaler çarpımlarının sıfır çıkması hangi sorularda hayat kurtarıyor? 👇",
+      "hashtags": "#matematik #vektörler #skalerçarpım #analitikgeometri #fizik #aytmatematik #yksmatematik #görselmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 35,
+      "filename": "tek_sayilar_toplam_final.mp4",
+      "title": "Ardışık Tek Sayıların Toplamı Neden Hep Tam Kare Çıkar? (1+3+5+... = n²)",
+      "topic": "Sayılar ve Görsel İspat",
+      "summary": "1 + 3 = 4 (2²), 1 + 3 + 5 = 9 (3²), 1 + 3 + 5 + 7 = 16 (4²)... Ardışık tek sayıları topladığımızda neden her seferinde kusursuz bir tam kare sayı elde ederiz? L şeklindeki katmanların kareyi tamamlama dansı!",
+      "question": "İlk 10 pozitif tek sayının toplamı kaçtır? Formülsüz sadece bu görselle cevabı 1 saniyede yazabilirsiniz! 👇",
+      "hashtags": "#matematik #teksayılar #tamkare #ardışıksayılar #görselispat #tytmatematik #lgsmatematik #sayılar #mufithocailematematik #antalya"
+    },
+    {
+      "order": 36,
+      "filename": "thales_final.mp4",
+      "title": "Thales Piramitlerin Boyunu Sadece Gölgesiyle Nasıl Ölçtü?",
+      "topic": "Geometri ve Benzerlik",
+      "summary": "Antik çağda Thales, Mısır piramitlerinin tepesine tırmanmadan yüksekliğini nasıl hatasız hesapladı? Paralel ışınlar, gölge boyları ve üçgende benzerlik oranlarının doğurduğu Thales Teoremi!",
+      "question": "Geometride benzerlik oranı k ise alanlar oranı neden k² olur? Yorumlarda buluşalım! 👇",
+      "hashtags": "#matematik #geometri #thales #benzerlik #üçgenler #tytgeometri #lgsmatematik #matematiktarihi #mufithocailematematik #antalya"
+    },
+    {
+      "order": 37,
+      "filename": "turev_final.mp4",
+      "title": "Türev Nedir? Anlık Değişim Oranı ve Teğetin Eğimi",
+      "topic": "Kalkülüs ve Türev",
+      "summary": "Hareket eden bir aracın tam o salisedeki anlık hızını nasıl ölçeriz? Kirişin iki noktasını birbirine sonsuz yaklaştırarak kesen doğruyu teğet doğruya dönüştürdüğümüz an: Türev!",
+      "question": "AYT Matematikte en sevdiğiniz konu Türev mi İntegral mi? 👇",
+      "hashtags": "#matematik #türev #limit #kalkülüs #aytmatematik #12sınıfmatematik #yksmatematik #teğet #mufithocailematematik #antalya"
+    },
+    {
+      "order": 38,
+      "filename": "canli_matematik_final.mp4",
+      "title": "Matematik Ezberlemek Değil, Düzeni Görebilmektir! (3-4-5 Üçgeni)",
+      "topic": "Geometri",
+      "summary": "3'ün karesi 9, 4'ün karesi 16 ve toplamları tam 25 yani 5'in karesi! Formülleri ezberleyip geçmek yerine sayıların ve şekillerin arasındaki bu kusursuz uyumu görmek matematiği bambaşka kılar.",
+      "question": "Matematiği görsellerle ve ispatlarla öğrenmek bakış açınızı nasıl değiştirdi? Yorumlarda paylaşın! 👇",
+      "hashtags": "#matematik #geometri #pisagor #görselmatematik #tytmatematik #lgsmatematik #eğitim #ispat #mufithocailematematik #antalya"
+    }
+  ]
+}
