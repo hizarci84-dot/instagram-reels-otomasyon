@@ -456,21 +456,12 @@ def main():
     location_id = str(creds.get("location_id") or resolve_antalya_location_id(access_token, default_loc_id))
     github_repo = creds.get("github_repo") or os.getenv("GITHUB_REPOSITORY", "hizarci84-dot/instagram-reels-otomasyon")
 
-    # 1. Önce Resumable (Doğrudan Dosya) Yükleme Yöntemini Dene
+    # 1. GitHub Raw URL üzerinden Reels medya konteyneri oluştur (En hızlı ve kararlı yöntem)
     container_id = None
+    raw_url = f"https://raw.githubusercontent.com/{github_repo}/main/{VIDEOS_DIR}/{urllib.parse.quote(filename)}"
     try:
-        print("\n[1/3] Instagram Reels medya konteyneri oluşturuluyor (Doğrudan Yükleme)...")
-        container_id, upload_uri = create_resumable_reels_container(
-            ig_user_id=ig_user_id,
-            access_token=access_token,
-            caption=caption,
-            location_id=location_id,
-        )
-        upload_binary_to_rupload(container_id, upload_uri, access_token, full_path)
-    except Exception as resumable_err:
-        print(f"  ! Doğrudan yükleme uyarısı: {resumable_err}")
-        raw_url = f"https://raw.githubusercontent.com/{github_repo}/main/{VIDEOS_DIR}/{urllib.parse.quote(filename)}"
-        print(f"  --> Yedek yöntem (GitHub Raw URL) devreye alınıyor: {raw_url}")
+        print(f"\n[1/3] Instagram Reels medya konteyneri oluşturuluyor (GitHub Bulut URL)...")
+        print(f"  Video Kaynağı: {raw_url}")
         container_id = create_url_reels_container(
             ig_user_id=ig_user_id,
             access_token=access_token,
@@ -478,6 +469,16 @@ def main():
             caption=caption,
             location_id=location_id,
         )
+    except Exception as url_err:
+        print(f"  ! URL üzerinden yükleme uyarısı: {url_err}")
+        print("  --> Yedek yöntem (Doğrudan Dosya Yükleme) devreye alınıyor...")
+        container_id, upload_uri = create_resumable_reels_container(
+            ig_user_id=ig_user_id,
+            access_token=access_token,
+            caption=caption,
+            location_id=location_id,
+        )
+        upload_binary_to_rupload(container_id, upload_uri, access_token, full_path)
 
     # 2. Konteyner işlenene kadar bekle
     print("\n[2/3] Video işleme durumu bekleniyor...")
