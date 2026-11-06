@@ -3,7 +3,8 @@
     "agirlik_merkezi_final.mp4",
     "altin_oran_final.mp4",
     "aciortay_teoremi_final.mp4",
-    "am_gm_final.mp4"
+    "am_gm_final.mp4",
+    "ascii_binary_final.mp4"
   ],
   "history": [
     {
@@ -41,6 +42,15 @@
       "location": "Antalya",
       "location_id": "106078429431815",
       "uploaded_at": "2026-11-06T00:23:52.950528+03:00"
+    },
+    {
+      "filename": "ascii_binary_final.mp4",
+      "title": "Bilgisayarlar Harfleri Nasıl Anlar? ASCII ve İkili (Binary) Sistem",
+      "media_id": "18026433080868440",
+      "permalink": "https://www.instagram.com/reel/DfajUfyiVlE/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "uploaded_at": "2026-11-07T00:17:55.159628+03:00"
     }
   ]
 }
