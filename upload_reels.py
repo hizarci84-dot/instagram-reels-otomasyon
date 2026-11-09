@@ -99,7 +99,12 @@ def is_already_uploaded_today(tracker_path: str):
         for item in reversed(data.get("history", [])):
             up_at = item.get("uploaded_at", "")
             if up_at.startswith(today_str) and item.get("status") != "manual":
-                return True, item.get("filename")
+                try:
+                    up_hour = int(up_at[11:13])
+                except Exception:
+                    up_hour = 18
+                if up_hour >= 6:
+                    return True, item.get("filename")
     except Exception as e:
         print("Uyarı: Takip geçmişi kontrol edilirken hata:", e)
     return False, None

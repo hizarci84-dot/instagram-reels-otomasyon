@@ -349,29 +349,29 @@
     {
       "order": 39,
       "filename": "cemberde_kuvvet_final.mp4",
-      "title": "Cemberde Kuvvet | Görsel Matematik İspatı",
-      "topic": "Matematik ve Geometri",
-      "summary": "Bir çemberin dışından çizilen teğet ve kesen çizgileri arasında gizli bir büyü olduğunu biliyor muydunuz? Dışarıdaki bir P noktasından çembere bir teğet ve bir de kesen doğru çekelim. Geometri der ki: Teğet parçasının karesi, kesenin...",
-      "question": "Cemberde Kuvvet konusunda sizin aklınıza ilk hangi kural veya yöntem geliyor? Yorumlarda buluşalım! 👇",
-      "hashtags": "#matematik #geometri #tytmatematik #aytmatematik #yksmatematik #lgsmatematik #görselispat #mufithocailematematik #antalya"
+      "title": "Çemberde Kuvvet Teoremi: Teğet ve Kesenin Gizli Oranı",
+      "topic": "Geometri",
+      "summary": "Bir çemberin dışındaki bir P noktasından çembere çizilen teğet ve kesen doğrular arasında nasıl bir bağıntı vardır? Teğet parçasının karesinin neden kesen parçalarının çarpımına eşit olduğunu benzer üçgenlerle görsel olarak kanıtlıyoruz!",
+      "question": "Çemberde kuvvet soruları karşınıza çıktığında benzerlik mi kuruyorsunuz yoksa doğrudan kuvvet formülünü mü uyguluyorsunuz? Yorumlarda buluşalım! 👇",
+      "hashtags": "#matematik #geometri #çemberdekuvvet #çember #tytgeometri #aytgeometri #yksmatematik #görselispat #mufithocailematematik #antalya"
     },
     {
       "order": 40,
       "filename": "zenon_paradoksu_final.mp4",
-      "title": "Zenon Paradoksu | Görsel Matematik İspatı",
-      "topic": "Matematik ve Geometri",
-      "summary": "Antik Yunan filozofu Zenon, tarihin en ünlü koşucusu Aşil'in ufacık bir kaplumbağayı asla geçemeyeceğini iddia etti! Kulağa saçma mı geliyor? Zenon'un kurduğu mantık tuzağına gelin yakından bakalım! Kaplumbağa Aşil'den yüz metre önde...",
-      "question": "Zenon Paradoksu konusunda sizin aklınıza ilk hangi kural veya yöntem geliyor? Yorumlarda buluşalım! 👇",
-      "hashtags": "#matematik #geometri #tytmatematik #aytmatematik #yksmatematik #lgsmatematik #görselispat #mufithocailematematik #antalya"
+      "title": "Zenon Paradoksu: Aşil Kaplumbağayı Neden Geçemez Görünür?",
+      "topic": "Analiz ve Sonsuz Seriler",
+      "summary": "Antik Yunan filozofu Zenon, tarihin en hızlı koşucusu Aşil'in kendisinden önde başlayan bir kaplumbağayı asla yakalayamayacağını iddia etti! Sonsuz sayıda adımın toplamı nasıl sonlu bir zamana eşit olur? Limit ve sonsuz serilerle Zenon'un mantık tuzağını çözüyoruz!",
+      "question": "Sonsuz sayıda parçanın toplamının sonlu bir sayı çıkması size de ilk başta şaşırtıcı gelmiş miydi? Yorumlarda buluşalım! 👇",
+      "hashtags": "#matematik #zenonparadoksu #sonsuzluk #limit #diziler #paradoks #felsefe #aytmatematik #yksmatematik #mufithocailematematik #antalya"
     },
     {
       "order": 41,
       "filename": "ramsey_teoremi_final.mp4",
-      "title": "Ramsey Teoremi | Görsel Matematik İspatı",
-      "topic": "Matematik ve Geometri",
-      "summary": "Rastgele seçilen altı insanı bir odaya toplarsanız, içinde kaçınılmaz bir matematik kuralı doğar! Bu altı kişiden en az üçü ya birbirini karşılıklı olarak tanır, ya da en az üçü birbirine tamamen yabancıdır! İstisnasız her durumda! İşte...",
-      "question": "Ramsey Teoremi konusunda sizin aklınıza ilk hangi kural veya yöntem geliyor? Yorumlarda buluşalım! 👇",
-      "hashtags": "#matematik #geometri #tytmatematik #aytmatematik #yksmatematik #lgsmatematik #görselispat #mufithocailematematik #antalya"
+      "title": "Ramsey Teoremi (Parti Problemi): 6 Kişide Kaçınılmaz Matematik Kuralı!",
+      "topic": "Ayrık Matematik ve Kombinatorik",
+      "summary": "Rastgele seçilen 6 kişiyi bir odaya toplarsanız; bu 6 kişiden en az 3'ü ya birbirini karşılıklı olarak tanır ya da en az 3'ü birbirine tamamen yabancıdır! Kaosun ortasında bile düzenin kaçınılmaz olduğunu kanıtlayan Ramsey Teoremi!",
+      "question": "Sizce bu kuralın 5 kişilik bir grupta bozulduğu bir durum çizilebilir mi? Yorumlarda tartışalım! 👇",
+      "hashtags": "#matematik #ramseyteoremi #çizgekuramı #kombinatorik #olimpiyatmatematiği #mantık #zekasoruları #tytmatematik #mufithocailematematik #antalya"
     }
   ]
 }

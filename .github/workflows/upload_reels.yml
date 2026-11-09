@@ -2,14 +2,12 @@ name: Instagram Reels Günlük Otomatik Paylaşım (18:00)
 
 on:
   schedule:
-    # 1. Ana Plan: Her gün Türkiye saatiyle 18:00 (15:00 UTC)
-    - cron: '0 15 * * *'
-    # 2. Yedek Plan: 19:00 TSİ (16:00 UTC) - GitHub sunucu yoğunluğu olursa güvenlik ağı
-    - cron: '0 16 * * *'
-    # 3. Yedek Plan: 20:00 TSİ (17:00 UTC) - İkinci güvenlik ağı
-    - cron: '0 17 * * *'
-    # 4. Yedek Plan: 21:00 TSİ (18:00 UTC) - Üçüncü güvenlik ağı
-    - cron: '0 18 * * *'
+    # 1. Ana Plan: Her gün Türkiye saatiyle 17:52 (14:52 UTC) - Saat başı yoğunluğunu aşarak tam 18:00 civarı yayına girer
+    - cron: '52 14 * * *'
+    # 2. Yedek Plan: 18:15 TSİ (15:15 UTC) - İlk tetikleme gecikirse güvenlik ağı
+    - cron: '15 15 * * *'
+    # 3. Yedek Plan: 18:45 TSİ (15:45 UTC) - İkinci güvenlik ağı
+    - cron: '45 15 * * *'
   # GitHub Actions sekmesinden istenildiği an "Run workflow" ile elle başlatma
   workflow_dispatch:
     inputs:
@@ -36,7 +34,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Günlük Kontrol (Bugün Saat 18:00 Reels Videosu Paylaşıldı mı?)
+      - name: Günlük ve Saat Kontrolü (Bugün Akşam Paylaşımı Yapıldı mı?)
         id: check_today
         run: |
           python -c "
@@ -44,17 +42,30 @@ jobs:
           from datetime import datetime, timezone, timedelta
           trt_now = datetime.now(timezone(timedelta(hours=3)))
           today = trt_now.strftime('%Y-%m-%d')
+          event_name = '${{ github.event_name }}'
           force_input = '${{ github.event.inputs.force_upload }}'.lower() == 'true'
           already_done = 'false'
-          if not force_input and os.path.exists('yuklenenler.json'):
+
+          # Eğer otomatik zamanlayıcı (schedule) gece 00:00 - 16:30 TSİ arasında aşırı gecikmeli uyanırsa paylaşımı engelle
+          if event_name == 'schedule' and trt_now.hour < 16:
+              print(f'Gece/gündüz dışı gecikmeli çalışma ({trt_now.strftime(\"%H:%M\")} TSİ) atlanıyor. Akşam 18:00 beklenecek.')
+              already_done = 'true'
+          elif not force_input and os.path.exists('yuklenenler.json'):
               try:
                   with open('yuklenenler.json', encoding='utf-8') as f:
                       data = json.load(f)
                   for h in reversed(data.get('history', [])):
-                      if h.get('uploaded_at', '').startswith(today) and h.get('status') != 'manual':
-                          already_done = 'true'
-                          print(f'Bugün ({today}) zaten paylaşılan Reels: {h.get(\"filename\")}')
-                          break
+                      up_at = h.get('uploaded_at', '')
+                      if up_at.startswith(today) and h.get('status') != 'manual':
+                          # Sadece sabah 06:00'dan sonra yapılan paylaşımları bugünün 18:00 paylaşımı say
+                          try:
+                              up_hour = int(up_at[11:13])
+                          except Exception:
+                              up_hour = 18
+                          if up_hour >= 6:
+                              already_done = 'true'
+                              print(f'Bugün ({today}) zaten paylaşılan Reels: {h.get(\"filename\")}')
+                              break
               except Exception as e:
                   print('Kontrol uyarısı:', e)
           with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
