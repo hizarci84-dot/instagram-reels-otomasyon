@@ -1,4 +1,4 @@
-name: Instagram Reels Günlük Otomatik Paylaşım (18:00)
+name: "Instagram Reels Günlük Otomatik Paylaşım (18:00)"
 
 on:
   schedule:
@@ -39,7 +39,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Günlük ve Saat Kontrolü (Mantıksal Gün Penceresi: 06:00 - Ertesi Gün 05:59 TSİ)
+      - name: "Günlük ve Saat Kontrolü (Mantıksal Gün Penceresi: 06:00 - Ertesi Gün 05:59 TSİ)"
         id: check_today
         run: |
           python -c "
