@@ -7,7 +7,8 @@
     "ascii_binary_final.mp4",
     "birim_cember_final.mp4",
     "bolunebilme_3_9_final.mp4",
-    "cember_alan_final.mp4"
+    "cember_alan_final.mp4",
+    "cevre_merkez_aci_final.mp4"
   ],
   "history": [
     {
@@ -82,6 +83,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-10",
       "uploaded_at": "2026-11-11T08:55:09.229396+03:00"
+    },
+    {
+      "filename": "cevre_merkez_aci_final.mp4",
+      "title": "Çemberde Çevre Açı Neden Merkez Açının Tam Yarısıdır?",
+      "media_id": "17871275166662910",
+      "permalink": "https://www.instagram.com/reel/DfmwS2vghpV/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-11",
+      "uploaded_at": "2026-11-11T18:02:03.737647+03:00"
     }
   ]
 }
