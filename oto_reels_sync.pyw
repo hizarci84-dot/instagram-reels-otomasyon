@@ -186,7 +186,22 @@ def sync_once() -> bool:
             creationflags=CREATE_NO_WINDOW,
         )
         subprocess.run(["git", "push", "origin", "main"], capture_output=True, creationflags=CREATE_NO_WINDOW)
-        return True
+        added_any = True
+
+    # 3. Saat 18:00 TSİ sonrasında eğer GitHub sunucusu gecikmişse ve o günün paylaşımı henüz yapılmamışsa yerel yedek olarak paylaş
+    try:
+        from datetime import datetime, timezone, timedelta
+        trt_now = datetime.now(timezone(timedelta(hours=3)))
+        if trt_now.hour >= 18 or trt_now.hour < 5:
+            from upload_reels import is_already_uploaded_today
+            done_today, _ = is_already_uploaded_today(os.path.join(PROJECT_DIR, "yuklenenler.json"))
+            if not done_today:
+                subprocess.run([sys.executable, os.path.join(PROJECT_DIR, "upload_reels.py")], capture_output=True, creationflags=CREATE_NO_WINDOW)
+                subprocess.run(["git", "add", "yuklenenler.json"], capture_output=True, creationflags=CREATE_NO_WINDOW)
+                subprocess.run(["git", "commit", "-m", "Otomatik Reels Paylasimi (Yerel 18:00 Guvenlik Agi)"], capture_output=True, creationflags=CREATE_NO_WINDOW)
+                subprocess.run(["git", "push", "origin", "main"], capture_output=True, creationflags=CREATE_NO_WINDOW)
+    except Exception:
+        pass
 
     return added_any
 

@@ -89,22 +89,27 @@ def format_caption(video_meta: dict, location_name: str = "Antalya") -> str:
 
 
 def is_already_uploaded_today(tracker_path: str):
-    """Bugün (Türkiye saatiyle) zaten otomatik bir Reels paylaşılıp paylaşılmadığını kontrol eder."""
+    """Bugün (Mantıksal paylaşım günü: 06:00 - ertesi gün 05:59 TSİ) zaten otomatik bir Reels paylaşılıp paylaşılmadığını kontrol eder."""
     if not os.path.exists(tracker_path):
         return False, None
     try:
         with open(tracker_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        today_str = now_trt().strftime("%Y-%m-%d")
+        logical_today = (now_trt() - timedelta(hours=6)).strftime("%Y-%m-%d")
         for item in reversed(data.get("history", [])):
-            up_at = item.get("uploaded_at", "")
-            if up_at.startswith(today_str) and item.get("status") != "manual":
-                try:
-                    up_hour = int(up_at[11:13])
-                except Exception:
-                    up_hour = 18
-                if up_hour >= 6:
-                    return True, item.get("filename")
+            if item.get("status") == "manual":
+                continue
+            item_logical = item.get("logical_day")
+            if not item_logical:
+                up_at = item.get("uploaded_at", "")
+                if len(up_at) >= 19:
+                    try:
+                        dt = datetime.fromisoformat(up_at)
+                        item_logical = (dt - timedelta(hours=6)).strftime("%Y-%m-%d")
+                    except Exception:
+                        item_logical = up_at[:10]
+            if item_logical == logical_today:
+                return True, item.get("filename")
     except Exception as e:
         print("Uyarı: Takip geçmişi kontrol edilirken hata:", e)
     return False, None
@@ -414,6 +419,7 @@ def main():
     parser = argparse.ArgumentParser(description="Instagram Reels Günlük Otomatik Paylaşım Sistemi")
     parser.add_argument("--dry-run", action="store_true", help="Paylaşım yapmadan sıradaki videoyu ve açıklamasını test eder")
     parser.add_argument("--force", action="store_true", help="Bugün zaten paylaşım yapılmış olsa bile zorla paylaşır")
+    parser.add_argument("--logical-day", default=None, help="Mantıksal paylaşım gününü manuel belirtir (YYYY-MM-DD)")
     parser.add_argument("--tracker", default=TRACKER_FILE_DEFAULT, help="Yüklenen videolar takip dosyası")
     args = parser.parse_args()
 
@@ -503,6 +509,7 @@ def main():
     if filename not in tracker_data.setdefault("uploaded_files", []):
         tracker_data["uploaded_files"].append(filename)
 
+    logical_day_val = args.logical_day or (now_trt() - timedelta(hours=6)).strftime("%Y-%m-%d")
     tracker_data.setdefault("history", []).append({
         "filename": filename,
         "title": video_meta.get("title"),
@@ -510,6 +517,7 @@ def main():
         "permalink": permalink,
         "location": location_name,
         "location_id": location_id,
+        "logical_day": logical_day_val,
         "uploaded_at": now_trt().isoformat(),
     })
 
