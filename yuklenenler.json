@@ -9,7 +9,8 @@
     "bolunebilme_3_9_final.mp4",
     "cember_alan_final.mp4",
     "cevre_merkez_aci_final.mp4",
-    "cizge_kurami_final.mp4"
+    "cizge_kurami_final.mp4",
+    "cokgenler_dis_acilar_final.mp4"
   ],
   "history": [
     {
@@ -104,6 +105,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-12",
       "uploaded_at": "2026-11-12T21:31:23.604714+03:00"
+    },
+    {
+      "filename": "cokgenler_dis_acilar_final.mp4",
+      "title": "Çokgenlerin Dış Açıları Toplamı Neden Hep 360 Derecedir?",
+      "media_id": "17966629638234646",
+      "permalink": "https://www.instagram.com/reel/Dfr51kRDEvN/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-13",
+      "uploaded_at": "2026-11-13T18:01:41.728017+03:00"
     }
   ]
 }
