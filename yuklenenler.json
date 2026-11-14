@@ -10,7 +10,8 @@
     "cember_alan_final.mp4",
     "cevre_merkez_aci_final.mp4",
     "cizge_kurami_final.mp4",
-    "cokgenler_dis_acilar_final.mp4"
+    "cokgenler_dis_acilar_final.mp4",
+    "diskriminant_final.mp4"
   ],
   "history": [
     {
@@ -115,6 +116,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-13",
       "uploaded_at": "2026-11-13T18:01:41.728017+03:00"
+    },
+    {
+      "filename": "diskriminant_final.mp4",
+      "title": "Diskriminant (Δ = b² - 4ac) Bize Gerçekte Ne Anlatır?",
+      "media_id": "18420757756082444",
+      "permalink": "https://www.instagram.com/reel/DfuqAafiKU1/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-14",
+      "uploaded_at": "2026-11-14T19:41:12.470060+03:00"
     }
   ]
 }
