@@ -12,7 +12,8 @@
     "cizge_kurami_final.mp4",
     "cokgenler_dis_acilar_final.mp4",
     "diskriminant_final.mp4",
-    "dogumgunu_final.mp4"
+    "dogumgunu_final.mp4",
+    "el_sikisma_final.mp4"
   ],
   "history": [
     {
@@ -137,6 +138,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-15",
       "uploaded_at": "2026-11-15T18:04:42.789048+03:00"
+    },
+    {
+      "filename": "el_sikisma_final.mp4",
+      "title": "El Sıkışma Problemi: n·(n-1)/2 Formülünün Görsel Mantığı",
+      "media_id": "18082921676381230",
+      "permalink": "https://www.instagram.com/reel/Dfzo8YDjS9I/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-16",
+      "uploaded_at": "2026-11-16T18:07:59.528497+03:00"
     }
   ]
 }
