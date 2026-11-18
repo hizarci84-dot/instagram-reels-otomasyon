@@ -14,7 +14,8 @@
     "diskriminant_final.mp4",
     "dogumgunu_final.mp4",
     "el_sikisma_final.mp4",
-    "eratosthenes_final.mp4"
+    "eratosthenes_final.mp4",
+    "euler_final.mp4"
   ],
   "history": [
     {
@@ -159,6 +160,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-17",
       "uploaded_at": "2026-11-17T18:05:55.727026+03:00"
+    },
+    {
+      "filename": "euler_final.mp4",
+      "title": "Bileşik Faizden Doğaya: Euler Sayısı (e ≈ 2,718...) Nedir?",
+      "media_id": "18000993993046916",
+      "permalink": "https://www.instagram.com/reel/Df4yfUpHMFq/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-18",
+      "uploaded_at": "2026-11-18T18:07:23.777948+03:00"
     }
   ]
 }
