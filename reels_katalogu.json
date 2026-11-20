@@ -381,6 +381,33 @@
       "summary": "İlkokuldan beri 'ikinci kesre takla attır ve çarp' diye ezberlediğimiz bu kural gökten zembille inmedi! 3 ÷ (1/2) işlemini 3 bütünün içindeki 6 yarım parça ile görselleştirip, ardından paydadaki kesri 1 yapma mantığıyla gerçek ispatını keşfediyoruz.",
       "question": "Peki 4 tam sayısını 1/3'e bölersek sonuç neden 12 çıkar? Yorumlarda buluşalım! 👇",
       "hashtags": "#matematik #kesirler #lgsmatematik #tytmatematik #temelmatematik #görselispat #sayılar #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 43,
+      "filename": "negatif_carpim_final.mp4",
+      "title": "Negatif İki Sayının Çarpımı Neden Pozitiftir? (-) × (-) = (+)",
+      "topic": "Temel Matematik ve Tam Sayılar",
+      "summary": "Okulda 'iki eksi yan yana gelince artı olur' diye ezberlediğimiz bu kuralın arkasında kusursuz bir mantık var! Çarpma örüntüsü merdiveni ve dağılma özelliğiyle sıfır dengesi kalkanını kullanarak eksi ile eksinin çarpımının neden artı çıktığını keşfediyoruz.",
+      "question": "Size göre sayı doğrusunda yön değiştirme mantığı mı yoksa cebirsel ispat mı daha akılda kalıcı? 👇",
+      "hashtags": "#matematik #tamsayılar #lgsmatematik #tytmatematik #temelmatematik #görselispat #sayılar #yksmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 44,
+      "filename": "sifira_bolme_final.mp4",
+      "title": "Sıfıra Bölmek Neden Yasaktır? (1 ÷ 0 Neden Sonsuz Bile Değildir?)",
+      "topic": "Temel Matematik ve Limit",
+      "summary": "Bir sayıyı sıfıra böldüğümüzde hesap makinesi neden hemen hata verir? Çarpmanın tersi çelişkisi, 0 ÷ 0 belirsizliği ve sıfıra sağdan (+∞) ile soldan (-∞) yaklaşmanın yarattığı kopuşla sıfıra bölmenin neden tanımsız olduğunu adım adım inceliyoruz.",
+      "question": "Daha önce 1 ÷ 0 işleminin sonucunu sonsuz mu sanıyordunuz? Yorumlarda paylaşın! 👇",
+      "hashtags": "#matematik #sıfırabölme #tanımsız #belirsiz #limit #tytmatematik #aytmatematik #lgsmatematik #mufithocailematematik #antalya"
+    },
+    {
+      "order": 45,
+      "filename": "sifir_dokuz_devirli_final.mp4",
+      "title": "0,999... Neden Tam 1'e Eşittir? (Devirli Ondalık Şoku)",
+      "topic": "Sayılar ve Ondalık Gösterim",
+      "summary": "İlk bakışta 1'den minicik eksik gibi görünen 0,999... sayısı matematikte neden birebir 1'e eşittir? 1/3 kesri kanıtı, 10x - x denklemi ve sayı doğrusu boşluk testiyle bu şaşırtıcı gerçeği üç farklı yönden ispatlıyoruz.",
+      "question": "Sizce 0,999... sayısı 1'e tam eşit midir yoksa ilk duyduğunuzda şaşırmış mıydınız? 👇",
+      "hashtags": "#matematik #devirliondalık #sayılar #tytmatematik #aytmatematik #lgsmatematik #görselispat #yksmatematik #mufithocailematematik #antalya"
     }
   ]
 }
