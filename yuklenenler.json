@@ -16,7 +16,8 @@
     "el_sikisma_final.mp4",
     "eratosthenes_final.mp4",
     "euler_final.mp4",
-    "gauss_toplam_final.mp4"
+    "gauss_toplam_final.mp4",
+    "sifirinci_kuvvet_notebooklm_pilot.mp4"
   ],
   "history": [
     {
@@ -181,6 +182,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-19",
       "uploaded_at": "2026-11-19T18:01:22.623483+03:00"
+    },
+    {
+      "filename": "sifirinci_kuvvet_notebooklm_pilot.mp4",
+      "title": "Bir Sayının Sıfırıncı Kuvveti Neden 1'dir? (a⁰ = 1)",
+      "media_id": "18094697858693936",
+      "permalink": "https://www.instagram.com/reel/Df97yPZHHXn/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-20",
+      "uploaded_at": "2026-11-20T18:05:12.549967+03:00"
     }
   ]
 }
