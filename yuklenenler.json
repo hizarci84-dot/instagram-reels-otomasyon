@@ -17,7 +17,8 @@
     "eratosthenes_final.mp4",
     "euler_final.mp4",
     "gauss_toplam_final.mp4",
-    "sifirinci_kuvvet_notebooklm_pilot.mp4"
+    "sifirinci_kuvvet_notebooklm_pilot.mp4",
+    "kesirlerde_bolme_ters_cevirme_final.mp4"
   ],
   "history": [
     {
@@ -192,6 +193,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-20",
       "uploaded_at": "2026-11-20T18:05:12.549967+03:00"
+    },
+    {
+      "filename": "kesirlerde_bolme_ters_cevirme_final.mp4",
+      "title": "Kesirlerde Bölme Yaparken Neden İkinciyi Ters Çevirip Çarparız?",
+      "media_id": "17913518229667252",
+      "permalink": "https://www.instagram.com/reel/DgAs6-9CbWk/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-21",
+      "uploaded_at": "2026-11-21T19:52:39.874016+03:00"
     }
   ]
 }
