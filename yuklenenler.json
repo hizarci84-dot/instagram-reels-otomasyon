@@ -18,7 +18,8 @@
     "euler_final.mp4",
     "gauss_toplam_final.mp4",
     "sifirinci_kuvvet_notebooklm_pilot.mp4",
-    "kesirlerde_bolme_ters_cevirme_final.mp4"
+    "kesirlerde_bolme_ters_cevirme_final.mp4",
+    "negatif_carpim_final.mp4"
   ],
   "history": [
     {
@@ -203,6 +204,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-21",
       "uploaded_at": "2026-11-21T19:52:39.874016+03:00"
+    },
+    {
+      "filename": "negatif_carpim_final.mp4",
+      "title": "Negatif İki Sayının Çarpımı Neden Pozitiftir? (-) × (-) = (+)",
+      "media_id": "17899868130681613",
+      "permalink": "https://www.instagram.com/reel/DgDKwfGGeNJ/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-22",
+      "uploaded_at": "2026-11-22T18:51:48.944861+03:00"
     }
   ]
 }
