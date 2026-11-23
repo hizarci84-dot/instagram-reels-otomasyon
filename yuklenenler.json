@@ -19,7 +19,8 @@
     "gauss_toplam_final.mp4",
     "sifirinci_kuvvet_notebooklm_pilot.mp4",
     "kesirlerde_bolme_ters_cevirme_final.mp4",
-    "negatif_carpim_final.mp4"
+    "negatif_carpim_final.mp4",
+    "sifira_bolme_final.mp4"
   ],
   "history": [
     {
@@ -214,6 +215,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-22",
       "uploaded_at": "2026-11-22T18:51:48.944861+03:00"
+    },
+    {
+      "filename": "sifira_bolme_final.mp4",
+      "title": "Sıfıra Bölmek Neden Yasaktır? (1 ÷ 0 Neden Sonsuz Bile Değildir?)",
+      "media_id": "18001970808046049",
+      "permalink": "https://www.instagram.com/reel/DgFqku7FIib/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-23",
+      "uploaded_at": "2026-11-23T18:08:33.469105+03:00"
     }
   ]
 }
