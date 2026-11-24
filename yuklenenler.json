@@ -20,7 +20,8 @@
     "sifirinci_kuvvet_notebooklm_pilot.mp4",
     "kesirlerde_bolme_ters_cevirme_final.mp4",
     "negatif_carpim_final.mp4",
-    "sifira_bolme_final.mp4"
+    "sifira_bolme_final.mp4",
+    "sifir_dokuz_devirli_final.mp4"
   ],
   "history": [
     {
@@ -225,6 +226,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-23",
       "uploaded_at": "2026-11-23T18:08:33.469105+03:00"
+    },
+    {
+      "filename": "sifir_dokuz_devirli_final.mp4",
+      "title": "0,999... Neden Tam 1'e Eşittir? (Devirli Ondalık Şoku)",
+      "media_id": "18122691128006707",
+      "permalink": "https://www.instagram.com/reel/DgIPoBFk1_g/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-24",
+      "uploaded_at": "2026-11-24T18:10:43.719221+03:00"
     }
   ]
 }
