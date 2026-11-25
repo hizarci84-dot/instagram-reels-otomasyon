@@ -21,7 +21,8 @@
     "kesirlerde_bolme_ters_cevirme_final.mp4",
     "negatif_carpim_final.mp4",
     "sifira_bolme_final.mp4",
-    "sifir_dokuz_devirli_final.mp4"
+    "sifir_dokuz_devirli_final.mp4",
+    "geometrik_seri_final.mp4"
   ],
   "history": [
     {
@@ -236,6 +237,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-24",
       "uploaded_at": "2026-11-24T18:10:43.719221+03:00"
+    },
+    {
+      "filename": "geometrik_seri_final.mp4",
+      "title": "Sonsuz Tane Sayının Toplamı Sonlu Olabilir mi? (1/2 + 1/4 + 1/8 + ...)",
+      "media_id": "17914347048664008",
+      "permalink": "https://www.instagram.com/reel/DgK0KrgR0ST/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-25",
+      "uploaded_at": "2026-11-25T18:08:30.186891+03:00"
     }
   ]
 }
