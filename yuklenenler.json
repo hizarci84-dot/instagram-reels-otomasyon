@@ -22,7 +22,8 @@
     "negatif_carpim_final.mp4",
     "sifira_bolme_final.mp4",
     "sifir_dokuz_devirli_final.mp4",
-    "geometrik_seri_final.mp4"
+    "geometrik_seri_final.mp4",
+    "guvercin_yuvasi_final.mp4"
   ],
   "history": [
     {
@@ -247,6 +248,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-25",
       "uploaded_at": "2026-11-25T18:08:30.186891+03:00"
+    },
+    {
+      "filename": "guvercin_yuvasi_final.mp4",
+      "title": "Güvercin Yuvası İlkesi: Basit Görünümlü Dâhiyane Kanıt",
+      "media_id": "18134882078494357",
+      "permalink": "https://www.instagram.com/reel/DgN4lgUhh9e/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-26",
+      "uploaded_at": "2026-11-26T22:44:42.598852+03:00"
     }
   ]
 }
