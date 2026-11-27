@@ -23,7 +23,8 @@
     "sifira_bolme_final.mp4",
     "sifir_dokuz_devirli_final.mp4",
     "geometrik_seri_final.mp4",
-    "guvercin_yuvasi_final.mp4"
+    "guvercin_yuvasi_final.mp4",
+    "harmonik_seri_final.mp4"
   ],
   "history": [
     {
@@ -258,6 +259,16 @@
       "location_id": "106078429431815",
       "logical_day": "2026-11-26",
       "uploaded_at": "2026-11-26T22:44:42.598852+03:00"
+    },
+    {
+      "filename": "harmonik_seri_final.mp4",
+      "title": "Harmonik Seri Paradoksu: Terimler Sıfıra Giderken Toplam Neden Sonsuza Gider?",
+      "media_id": "18119524475043564",
+      "permalink": "https://www.instagram.com/reel/DgP9hNmhckI/",
+      "location": "Antalya",
+      "location_id": "106078429431815",
+      "logical_day": "2026-11-27",
+      "uploaded_at": "2026-11-27T18:06:45.406382+03:00"
     }
   ]
 }
